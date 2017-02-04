@@ -1,0 +1,100 @@
+/*Base Element Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1em/1.5;
+  color: #184f68;
+	background-image:url("../images/back.jpg");
+	background-size:cover;
+}
+
+header {
+	text-align: center;  
+}
+
+h1 {
+	font-size: 2.5em;
+	text-shadow: 2px 1px 0 lightblue;
+	margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*page style*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #49B6DA;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#select-iten{
+border-radius:10px 10px 10px 10px;
+box-shadow:4px 4Px 2px rgba(0,0,0,.2);
+background-image:url("images/back.jpg");
+background-size:cover;
+padding:18% 24%;
+border-width:1px;
+border-style:solid;
+}
+#head_main{
+border-radius:10px 10px 10px 10px;
+box-shadow:4px 4Px 2px rgba(0,0,0,.2);
+background-image:url("images/back.jpg");
+background-size:cover;
+margin:auto;
+border-width:1px;
+border-style:solid;
+}
+#head_ul{
+background-color:#49B6DA;
+}
+/*link visited or unvisited*/
+a:link{
+color:blue;
+}
+a:visited{
+color:white;
+}
+a:hover{
+color:#ff3300;
+}
+a:active{
+color:lightblue;
+}
+a:focus{
+color:white;
+background-color:#accbd9;
+}
+/*  Media Queries */
+
+@media (min-width: 0) and (max-width: 679px) {
+	header {
+		padding: 2em 0;
+	}
+	
+
+@media (min-width: 680px) {
+	header {
+		padding: 4.65em 0 2.5em;
+	}
+	
