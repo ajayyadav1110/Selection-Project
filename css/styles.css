@@ -47,14 +47,7 @@ li a {
     text-decoration: none;
 }
 
-#select-iten{
-border-radius:10px 10px 10px 10px;
-box-shadow:4px 4Px 2px rgba(0,0,0,.2);
-background-image:url("images/back.jpg");
-background-size:cover;
-padding:18% 24%;
-border-width:1px;
-border-style:solid;
+
 }
 #head_main{
 border-radius:10px 10px 10px 10px;
@@ -68,6 +61,7 @@ border-style:solid;
 #head_ul{
 background-color:#49B6DA;
 }
+
 /*link visited or unvisited*/
 a:link{
 color:blue;
